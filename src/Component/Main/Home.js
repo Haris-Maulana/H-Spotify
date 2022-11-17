@@ -12,7 +12,9 @@ const Home = () => {
     .then(response => console.log(response))
     .catch(err => console.error(err));
 
-   return <a href='#'>Press</a>;
+   return(
+    <div></div>
+   );
 };
 
 export default Home;
